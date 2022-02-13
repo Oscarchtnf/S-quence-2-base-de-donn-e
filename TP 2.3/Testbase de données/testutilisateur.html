@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bienvenue sur mon site web</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+<form action="TESTUTILISATEURS.php" method='post'>
+	<p>Veuillez rentrer votre login :</p>
+	<input type="text" name="Login">
+	<p>Veuillez rentrer votre mot de passe</p>
+	<input type="Password" name="Password">
+	<p>Veuillez rentrer votre superUser</p>
+	<input type="radio" name="superUser" id="case" value="1" checked /> <label for="case">superUser</label>
+	<input type="radio" name="superUser" id="case" value="0" /> <label for="case">user</label><br>
+	<input type="submit" value="Valider" />
+</form>

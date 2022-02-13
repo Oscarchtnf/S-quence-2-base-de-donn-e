@@ -1,0 +1,47 @@
+★ {
+	margin: 0;
+	madding: 0;
+}
+
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: #000000;
+	line-height: 1.6;
+}
+#showcase{
+	background: url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?cs=srgb&dl=pexels-gdtography-911738.jpg&fm=jpg);
+	height: 100vh; /*viewport height*/
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+#showcase h1{
+	font-size: 50px;
+
+}
+#showcase p{
+	font-size: 20px;
+}
+#showcase .button{
+	font-size: 18px;
+	text-decoration: none;
+	color: #000000;
+	border: #000000 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#showcase .button:hover{
+	background: :#000000;
+	color: #fff;
+}
+
+

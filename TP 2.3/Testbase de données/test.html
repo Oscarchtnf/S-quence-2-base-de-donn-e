@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bienvenue sur mon site web</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+<form action="test.php" method="post">
+	<p><b>Veuillez rentrer votre nom </b> :</p>
+	<input type="text" name="NOM" />
+	<p><b>Veuillez rentrer votre prenom </b> :</p>
+	<input type="text" name="PRENOM" />
+	<p><b>Veuillez taper votre CLASSE </b>(en kg) </p>
+	<input type="text" name="CLASSE" />
+	<p/><b>Veuillez taper votre MATIERE </b>(en cm) :</p>
+	<select name="MATIERE">
+		<optgroup label="Général">
+			<option value="FRANCAIS">Français</option>
+			<option value="MATHS">Maths</option>
+			<option value="ANGLAIS">Anglais</option>
+		</optgroup>
+		<optgroup label="Informatique">
+			<option value="INFO">Informatique</option>
+			
+		</optgroup>
+	</select><br>
+	<!--
+	<input type="radio" name="MATIERE" id="case" value="FRANCAIS" checked /> <label for="case">FRANCAIS</label>
+	<input type="radio" name="MATIERE" id="case" value="MATHS" /> <label for="case">MATHS</label><br>
+	<input type="radio" name="MATIERE" id="case" value="ANGLAIS" checked /> <label for="case">ANGLAIS</label>
+	<input type="radio" name="MATIERE" id="case" value="INFO" /> <label for="case">INFO</label><br>
+-->	<input type="text" name="NOTE" /><br>
+
+	<input type="submit" value="Valider" />
+
+</form>
+	</body>
+
+</html>
